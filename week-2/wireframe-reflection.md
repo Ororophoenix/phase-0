@@ -1,5 +1,5 @@
-![wireframe-index](week-2\imgs\wireframe-index.png)
-![wireframe-blog-index](week-2\imgs\wireframe-blog-index.png)
+![wireframe-index](week-2/imgs/wireframe-index.png)
+![wireframe-blog-index](week-2/imgs/wireframe-blog-index.png)
 
 ##What is a wireframe?
 o	A wireframe is a blueprint for websites. 
