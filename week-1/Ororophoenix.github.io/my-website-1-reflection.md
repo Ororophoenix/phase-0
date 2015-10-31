@@ -1,0 +1,18 @@
+•	Paste a link to your [USERNAME].github.io repository.
+o	https://github.com/Ororophoenix/Ororophoenix.github.io
+•	Explain how to create a repository on GitHub and clone the repository to your local computer to a non-technical person.
+o	(This is my side of an imaginary conversation with my mom)
+o	Hey Mommy, yes I‘m fine, no I don’t need anything I just need to do something for my homework; I promise I will call grandpa later today. I have to explain something to you for my class. Ok first we are going to use something called github. Essentially it’s just a website that holds coding projects and people can share them with others. It’s like social media for tech nerds. Anyway, we need to make and clone a repository. A repository is like a folder, any code you make that is related to this repository you will put it here. You can call it repo for short. Ok we are going to use my profile, you don’t need a profile. No mommy seriously you don’t need one. 
+o	Find the plus sign in the top right corner and click create new repository. Good job. Now you can name it whatever you want. Yes mommy, you can name it I love Jesus. Ok now we are going to leave it public. You aren’t going to put anything in it anyway, it doesn’t matter if it’s public. Ok fine make it private. Well, if you don’t want to pay make it public.  Ok choose the MIT license. For the love of God mommy please just choose the MIT license. Ok now we are going to clone it to the computer. Which means you are going to have access to the repo on your computer and you will not have to login to the website on github to access it.  Copy that URL. Open the app called git bash at the bottom of the screen. Basically this is the computer’s version of the Github website. Ok now type git clone and paste the URl next to it. Good job that’s it. Mommy, I have more homework to do if you want to do more we can make you an account that you won’t use later.  Ok talk to you later, love you, bye. 
+•	Describe what open source means.
+o	Open source is software that is made available to the public for free. It can be used, redistributed, or improved upon by anyone. 
+•	What do you think about Open Source? Does it make you nervous or protective? Does it feel like utopia?
+o	I think that Open Source is great. I think it helps the tech community move forward by being so open with code. It allows people to be inspired by the works of others and improve upon it if they like without fear of plagiarism. Right now it makes me feel happy because this means there are likely people who are willing to help me while I learn. If and when I ever create something I would want to sell then I would be protective or nervous. 
+•	Assess the importance of using licenses.
+o	Licenses are important because you are not giving up the rights to your work but you are allowing others to use it or help you improve upon it. I think it helps create a great environment in the tech community. 
+•	What concepts were solidified in the challenge? Did you have any "aha" moments? What did you struggle with?
+o	This challenged helps me solidify creating branches, push and pull requests as well as git status, add, and commit. I went through most of the challenge without having to look back at the previous challenge. I did have to go back to look at the commands to push the file but I am really happy that that was the only thing I needed to look back on. 
+•	Did you find any resources on your own that helped you better understand a topic? If so, please list it.
+o	I liked the way that this website explained what open source is. 
+o	http://computer.howstuffworks.com/question435.htm
+
