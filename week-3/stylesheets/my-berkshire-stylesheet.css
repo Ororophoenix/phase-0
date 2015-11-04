@@ -1,0 +1,76 @@
+body {
+    color: #000080;
+    background-color: #ffffff;
+}
+a {
+    color: #800080;
+    font-size: 16px;
+}
+a:visited {
+    color: #ff0000;
+    font-size: 16px;
+}
+li:nth-child(even) {
+    float: right;
+    text-align: left;
+    width: 50%;
+}
+li:nth-child(odd) {
+    float: left;
+    text-align: left;
+    width: 50%;
+}
+footer {
+    clear: both;
+    text-align: left;
+    border-top: 1px solid black;
+    font-size: 12px;
+}
+section {
+    font-size: 12px;
+    border-top: 1px solid #000000;
+}
+.hr {
+    border-top: 1px solid #000000
+}
+footer div {
+    margin: auto;
+    text-align: center;
+    width: 550px;
+}
+footer a {
+    font-size: 12px;
+}
+header {
+    font-weight: bold;
+    font-size: 1em;
+    text-align: center;
+    width: 300px;
+    margin: auto;
+}
+header h1 {
+    font-size: 1em;
+}
+header span {
+    font-size: 2em;
+}
+#address {
+    font-size: .75em;
+    width: 150px;
+    margin: auto;
+}
+footer span {
+    font-weight: bold;
+}
+/*What is important to know when linking an external file (like a stylesheet) to an HTML file?
+YOu have to have three attricute when linking a external CSS file to an HTML. You need a type, rel, and href attribute. Type is always text/css, rel is stylesheet and 
+href is the path to your CSS file.
+
+What tricks did you use to help you with positioning? How hard was it to get the site as you wanted it?
+It sucked so bad haha. It took my partner and I three hours to do this whole challenge. I don't know if you would necessarily call them tricks because trick implies that it was easy and quick. However we used float, align and margin to help with positioning our website. 
+What CSS did you use to modify the element style (like size, color, etc.)
+We used size, color, width, border and background color. 
+Did you modify the HTML to include classes or ids? If so, which did you choose and why? If you didn't, how would you know which one to add to your HTML?
+We used id to position the street address and change the size. We used this because the header had four different text sizes. To isolate the address we used id. 
+When you compared your site to the actual code base, which do you think had cleaner code that followed best practices and why?
+I think the site had cleaner code because they used a table. I suggested a table but we werent sure how to get the links in the right rows so we did not use that idea. I think using the table is simpler and it is not necessary to use so many individualized pieces like we did. */
