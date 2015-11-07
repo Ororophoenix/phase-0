@@ -1,4 +1,4 @@
-![ChromedevTools1](../chrome-devtools/imgs/1.png)
+![1](../chrome-devtools/imgs/1.png)
 ![ChromedevTools1](../chrome-devtools/imgs/2.png)
 ![ChromedevTools1](../chrome-devtools/imgs/3.png)
 ![ChromedevTools1](../chrome-devtools/imgs/4.png)
