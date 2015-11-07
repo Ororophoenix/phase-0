@@ -9,7 +9,7 @@
 ![ChromedevTools1](../chrome-devtools/imgs/9.png)
 
 How can you use Chrome's DevTools inspector to help you format or position elements?
-You can change the CSS on the page using the style section. 
+You can change the CSS on the page using the style section and see the changes right away without having to go back and forth in github or on your computer. 
 How can you resize elements on the DOM using CSS?
 What are the differences between absolute, fixed, static, and relative positioning? Which did you find easiest to use? Which was most difficult?
 Honestly I am still a little fuzzy on those concepts. But from what I understand absolute is positioned in relation to the first parent element that isnt already set to static. Fixed means it has a fixed position that it does not move from. Relative is when the content is placed where it would have been if it had the default static. We didn't find any that were easy to use. We kind of fiddled around with it and went with what worked. 
