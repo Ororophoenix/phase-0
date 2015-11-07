@@ -1,5 +1,5 @@
 ![1](../week-3/chrome-devtools/imgs/1.png)
-![ChromedevTools1](../week-3/chrome-devtools/imgs/2.png)
+![2](../chrome-devtools/imgs/2.png)
 ![ChromedevTools1](../week-3/chrome-devtools/imgs/3.png)
 ![ChromedevTools1](../week-3/chrome-devtools/imgs/4.png)
 ![ChromedevTools1](../week-3/chrome-devtools/imgs/5.png)
