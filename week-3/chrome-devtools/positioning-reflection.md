@@ -1,12 +1,12 @@
-![1](../chrome-devtools/imgs/1.png)
-![ChromedevTools1](../chrome-devtools/imgs/2.png)
-![ChromedevTools1](../chrome-devtools/imgs/3.png)
-![ChromedevTools1](../chrome-devtools/imgs/4.png)
-![ChromedevTools1](../chrome-devtools/imgs/5.png)
-![ChromedevTools1](../chrome-devtools/imgs/6.png)
-![ChromedevTools1](../chrome-devtools/imgs/7.png)
-![ChromedevTools1](../chrome-devtools/imgs/8.png)
-![ChromedevTools1](../chrome-devtools/imgs/9.png)
+![1](../week-3/chrome-devtools/imgs/1.png)
+![ChromedevTools1](../week-3/chrome-devtools/imgs/2.png)
+![ChromedevTools1](../week-3/chrome-devtools/imgs/3.png)
+![ChromedevTools1](../week-3/chrome-devtools/imgs/4.png)
+![ChromedevTools1](../week-3/chrome-devtools/imgs/5.png)
+![ChromedevTools1](../week-3/chrome-devtools/imgs/6.png)
+![ChromedevTools1](../week-3/chrome-devtools/imgs/7.png)
+![ChromedevTools1](../week-3/chrome-devtools/imgs/8.png)
+![ChromedevTools1](../week-3/chrome-devtools/imgs/9.png)
 
 How can you use Chrome's DevTools inspector to help you format or position elements?
 You can change the CSS on the page using the style section and see the changes right away without having to go back and forth in github or on your computer. 
