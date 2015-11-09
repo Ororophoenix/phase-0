@@ -1,6 +1,6 @@
 ![1](imgs/img-one.png)
 ![2](imgs/2.png)
-![ChromedevTools1](imgs/3.PNG)
+![ChromedevTools1](imgs/3.png)
 ![ChromedevTools1](imgs/4.png)
 ![ChromedevTools1](imgs/5.png)
 ![ChromedevTools1](imgs/6.png)
