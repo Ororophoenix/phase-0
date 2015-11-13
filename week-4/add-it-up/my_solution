@@ -1,0 +1,52 @@
+def factorial(number)
+  if number == 0
+    return 1
+  else
+    return (number * factorial(number-1))
+  end
+end
+puts factorial(5)
+
+# ADD IT UP SOLUTIONS
+
+# 1. total initial solution
+def total(array_of_nums)
+  total = 0
+  array_of_nums.each do |num|
+    total = total + num
+  end
+  return total
+end
+
+# 3. total refactored solution
+
+def total2(array_of_nums)
+  return array_of_nums.inject(:+)
+end
+
+# 4. sentence_maker pseudocode
+# make sure all pseudocode is commented out!
+# Input:
+# Output:
+# Steps to solve the problem.
+
+
+# 5. sentence_maker initial solution
+
+def sentence_maker(array_of_words)
+  sentence = ""
+  array_of_words.each do |word|
+    sentence = sentence + " " + word
+  end
+  sentence = sentence + "."
+  sentence[0] = ""
+  sentence = sentence.capitalize
+
+  return sentence
+end
+
+# 6. sentence_maker refactored solution
+
+def sentence_maker2(array_of_words)
+  return (array_of_words.join(" ").capitalize + ".")
+end
