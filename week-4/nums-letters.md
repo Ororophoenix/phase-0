@@ -17,11 +17,15 @@ How does Ruby handle addition, subtraction, multiplication, and division of numb
 
 What is the difference between integers and floats?
   An integer is a whole number (a number without a decimal point). A float is a number with a decimal point.
+
 What is the difference between integer and float division?
   When dividing a integer ruby can only return an integer. When dividing floats ruby returns answers with decimal point.
+
 What are strings? Why and when would you use them?
   Strings are groups of letters, numbers,punctuation and essentially anything else you want thrown into it. You can use strings to make sentences, recieve informaiton for a program, or return information to a user.
+
 What are local variables? Why and when would you use them?
   Local variables are variables that live inside a method and cannot leave. You would use them when you needed to define a method that you do not want to interfere with other parts of your code.
+
 How was this challenge? Did you get a good review of some of the basics?
   The most difficult part was understanding how to work ruby using the terminal.
