@@ -1,0 +1,9 @@
+def valid_triangle?(a, b, c)
+  if a == b && a == c
+  return true
+  elsif a == b || a == c || b == c # == operator has the highest priority
+    :isosceles
+  else
+    :scalene                       # no need for return keyword
+  end
+end

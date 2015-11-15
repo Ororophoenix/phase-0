@@ -1,18 +1,18 @@
 
 def add(num_1, num_2)
-	puts num_1+num_2
+	return num_1+num_2
 end
 
 def subtract(num_1, num_2)
-	puts num_1-num_2
+	return num_1-num_2
 end
 
 def multiply(num_1, num_2)
- 	puts num_1*num_2
+ 	return num_1*num_2
 end
 
 def divide(num_1, num_2)
-	puts num_1/num_2
+	return num_1/num_2
 end
 add(2,3)
 multiply(5,4)
