@@ -72,6 +72,6 @@ end
 #When you refactored, did you find any existing methods in Ruby to clean up your code?
   #We used .insert .length .max
 #How readable is your solution? Did you and your pair choose descriptive variable names?
-  #Its good
+  #I think it is readable. Yes.
 #What is the difference between destructive and non-destructive methods in your own words?
-  #
+  #the difference is that destructive code is supposed to be a clone of the nondestructive method and have its own memory that can be manipulated.

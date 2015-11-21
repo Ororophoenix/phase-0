@@ -65,4 +65,4 @@ end
 #What issues/successes did you run into when translating your pseudocode to code?
   #We had to start all the way over. At first we were using a hash and we had goteen it to the point where the values listed the frequency and we needed to return the key. We tried a ton of different methods before switching to using counter instead.
 #What methods did you use to iterate through the content? Did you find any good ones when you were refactoring? Were they difficult to implement?
-  #We used counter at the end. I think counter was probably the easiest. The other methods we used were fairly difficult.
+  #We used counter at the end. I think counter was probably the easiest. The other methods we used were fairly difficult. FYI that was a super confusing concept when explained in the books.
