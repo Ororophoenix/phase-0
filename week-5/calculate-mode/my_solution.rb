@@ -1,8 +1,8 @@
 # Calculate the mode Pairing Challenge
 
-# I worked on this challenge [by myself, with: ]
+# I worked on this challenge with Nicollete Chambers
 
-# I spent [] hours on this challenge.
+# I spent 3 hours on this challenge.
 
 # Complete each step below according to the challenge directions and
 # include it in this file. Also make sure everything that isn't code
@@ -58,3 +58,11 @@ end
 
 
 # 4. Reflection
+#Which data structure did you and your pair decide to implement and why?
+  #
+#Were you more successful breaking this problem down into implementable pseudocode than the last with a pair?
+  #Not really. We understood what we wanted to happenbut did not really know good ways to make it happen so in the sense of understanding the problem better yes that was good but in the sense of psuedocode that could help us move forward in our actual code I dont think it really helped.
+#What issues/successes did you run into when translating your pseudocode to code?
+  #We had to start all the way over. At first we were using a hash and we had goteen it to the point where the values listed the frequency and we needed to return the key. We tried a ton of different methods before switching to using counter instead.
+#What methods did you use to iterate through the content? Did you find any good ones when you were refactoring? Were they difficult to implement?
+  #We used counter at the end. I think counter was probably the easiest. The other methods we used were fairly difficult.
