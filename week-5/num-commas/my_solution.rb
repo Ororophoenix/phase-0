@@ -39,6 +39,9 @@ def separate_comma(num)
   end
 end
 
+
+
+# 2. Refactored Solution
 def separate_comma(num)
   string=num.to_s
   if string.size<4
@@ -48,9 +51,6 @@ else
   end
 end
 p separate_comma(1000)
-
-# 2. Refactored Solution
-
 
 
 
