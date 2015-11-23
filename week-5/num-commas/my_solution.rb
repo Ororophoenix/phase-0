@@ -44,7 +44,7 @@ def separate_comma(num)
   if string.size<4
     p num.to_s
 else
-    string.insert(3,',')
+    string.insert(-4,',')
   end
 end
 p separate_comma(1000)
