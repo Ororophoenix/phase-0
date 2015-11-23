@@ -15,4 +15,7 @@ def acct_groups(array)
   end
 end
 
-p acct_groups(["monique", "carina", "marisa", "siobahn", "arushi", "lonnie"])
+#refactor
+def acct_groups(array)
+  names_array=[]
+  names_array.shuffle.each_slice(3) {|a, b, c| p ["a"+"b"+"c"]}
