@@ -25,32 +25,34 @@
 
 # 1. Initial Solution
 def separate_comma(num)
-  v1=num.to_s.split('')
-  v2=v1.size/3.0
-  if v1.size < 4
-    p num.to_s
-  else
-    n = -4
-    v2.to_i.times do |i|
-      v1.insert(n, ',')
-      n -= 4
-    end
-   p v1.join("")
+  chars = num.to_s.split('')
+  comma_count = chars.size/3
+  return num.to_s if chars.size < 4
+
+  if chars.size % 3 == 0
+    comma_count -= 1
   end
+
+  n = -4
+  comma_count.to_i.times do |i|
+    chars.insert(n, ',')
+    n -= 4
+  end
+  chars.join("")
 end
 
 
 
 # 2. Refactored Solution
-def separate_comma(num)
-  string=num.to_s
-  if string.size<4
-    p num.to_s
-else
-    string.insert(-4,',')
+def alt_sep_comma(num)
+  rev_split = num.to_s.split('').reverse.each_slice(3).to_a
+  index = 1
+  while index < rev_split.size
+    rev_split.insert(index, ',')
+    index += 2
   end
+  p rev_split.flatten.reverse.join('')
 end
-p separate_comma(1000)
 
 
 
