@@ -21,11 +21,11 @@ class Die
   end
 end
   def sides
-    return @sides
+    return @labels
   end
 
   def roll
-    return rand(1..@sides)
+    return ('A'...'Z').to_a.shuffle
   end
 end
 
