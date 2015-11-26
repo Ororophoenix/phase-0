@@ -9,8 +9,10 @@
 # Input:array of strings for sides
 # Output:return randomized strings
 # Steps: if/else statement for argument error
-#create
-
+ # choose a random index
+ # lowest number index could be is 0
+# highest number index could be is @labels.size - 1
+  # return the string at the index
 
 # Initial Solution
 
@@ -22,18 +24,14 @@ class Die
       @labels=labels
     end
   end
-
   def sides
     @labels
   end
 
   def roll
-    # choose a random index
-    # lowest number index could be is 0
-    # highest number index could be is @labels.size - 1
     index = rand(0..@labels.size-1)
     @labels[index]
-    # return the string at the index
+
   end
 
 end
@@ -65,9 +63,6 @@ class Die
   end
 
 end
-
-
-
 
 
 # Reflection
