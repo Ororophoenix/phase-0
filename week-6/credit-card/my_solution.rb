@@ -51,6 +51,7 @@ class CreditCard
       end }
   p doubled_numbers.flatten.map(&:to_i)
   end
+
   def credit_card_check
     if check_card%10==0
       return true
