@@ -93,3 +93,10 @@ end
 
 
 # Reflection
+=begin
+What was the most difficult part of this challenge for you and your pair?
+  We had a difficult time figuring out how to sum up the array
+What new methods did you find to help you when you refactored?
+
+What concepts or learnings were you able to solidify in this challenge?
+=end
