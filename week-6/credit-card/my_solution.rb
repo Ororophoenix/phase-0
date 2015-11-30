@@ -1,8 +1,8 @@
 # Class Warfare, Validate a Credit Card Number
 
 
-# I worked on this challenge [by myself, with: ].
-# I spent [#] hours on this challenge.
+# I worked on this challenge Lindsey Stevenson
+# I spent [4] hours on this challenge.
 
 # Pseudocode
 
@@ -29,7 +29,6 @@
 # of exactly 16 digits
 
 class CreditCard
-
   def initialize(card_number)
     if card_number.to_s.size != 16
       raise ArgumentError.new("Please enter 16 digit credit card number")
@@ -38,31 +37,33 @@ class CreditCard
   end
 
   def check_card
+
     split_numbers=@card_number.reverse.split(//).map(&:to_i)
+
     doubled_numbers = split_numbers.each_with_index.map{|number, index|
       if (index % 2 != 0)
         product = number * 2
-        if product >= 10
+          if product >= 10
           product.to_s.split(//)
-        else product
-        end
+          else product
+          end
       else
         number
       end }
-  p doubled_numbers.flatten.map(&:to_i)
-  end
 
-  def credit_card_check
-    if check_card%10==0
-      return true
+    doubled_numbers.flatten!.map!(&:to_i)
+    sum = doubled_numbers.inject{|sum,number| sum + number }
+
+    if ( sum % 10 == 0)
+      true
     else
-      return false
+      false
     end
   end
 end
-p my_card=CreditCard.new(4567876898678394)
-my_card.check_card
 
+my_card=CreditCard.new(4567876898678394)
+p my_card.check_card
 
 
 
@@ -97,6 +98,7 @@ end
 What was the most difficult part of this challenge for you and your pair?
   We had a difficult time figuring out how to sum up the array
 What new methods did you find to help you when you refactored?
-
+  I did not use any new methods for refactoring
 What concepts or learnings were you able to solidify in this challenge?
+  I got a lot more experience with if and else. we had so many layers to the original solution to make surei t worked properly.
 =end
