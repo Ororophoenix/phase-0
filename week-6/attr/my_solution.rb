@@ -46,8 +46,9 @@ Is this code simpler than the last?
   yes this is simpler because we were able to take out another method and when we called age at the bottom we simply needed to call age and not the method.
 
 Release 4
-
+  https://github.com/Ororophoenix/phase-0/blob/master/week-6/attr/release_4.rb
 Release 5
+  https://github.com/Ororophoenix/phase-0/blob/master/week-6/attr/release_5.rb
 
 Reflection
 What is a reader method?
