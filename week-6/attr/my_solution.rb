@@ -5,18 +5,29 @@
 # I spent [#] hours on this challenge.
 
 # Pseudocode
+#create name class and initialize
+#create greeting class initialize
+#make name an instance variable
+#persons name needs to be an instance variable
 
-# Input:
-# Output:
+# Input: a persons name
+# Output: sentence with a persons name
 # Steps:
 
 class NameData
-
+  attr_reader :name
+  def initialize(name)
+    @name=name
+  end
 end
 
-
 class Greetings
-
+  def initialize()
+  @person = NameData.new("name")
+  end
+  def hello
+    p "hello #{person.name}! How wonderful to see you today."
+  end
 end
 
 
@@ -60,4 +71,5 @@ What do the attr methods do for you?
 Should you always use an accessor to cover your bases? Why or why not?
   I dont think you should always use any one thing. I think they are useful in some situations but in others it may be important to break your code up if you need to have some variation.
 What is confusing to you about these methods?
+  I am still a little fuzzy on why they work I think I understand how to use them though.
 =end
