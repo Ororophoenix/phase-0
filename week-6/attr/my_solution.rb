@@ -1,6 +1,6 @@
 #Attr Methods
 
-# I worked on this challenge [by myself, with:]
+# I worked on this challenge by myself
 
 # I spent [#] hours on this challenge.
 
@@ -23,8 +23,40 @@ end
 
 # Reflection
 =begin
+Release 1
 What are these methods doing?
   these methods are creating a profile and allowing a user to change their account information
 How are they modifying or returning the value of instance variables?
   they set the new information to the method class name and set instance of profile to a new
+
+Release 2
+What changed between the last release and this release?
+  they added the attr_reader method to the code which cancelled the need for the what is age method
+What was replaced?
+  attr_reader method to the code which cancelled the need for the what is age method
+Is this code simpler than the last?
+  yes.
+
+Release 3
+What changed between the last release and this release?
+  attr_writer was added
+What was replaced?
+  change_my_are was replaced.
+Is this code simpler than the last?
+  yes this is simpler because we were able to take out another method and when we called age at the bottom we simply needed to call age and not the method.
+
+Release 4
+
+Release 5
+
+Reflection
+What is a reader method?
+  Creates instance variables and corresponding methods that return the value of each instance variable.
+What is a writer method?
+  Creates an accessor method to allow assignment to the attribute symbol.
+What do the attr methods do for you?
+  it is a easy way to share instance variables and cuts out a lot of the repetition
+Should you always use an accessor to cover your bases? Why or why not?
+  I dont think you should always use any one thing. I think they are useful in some situations but in others it may be important to break your code up if you need to have some variation.
+What is confusing to you about these methods?
 =end
