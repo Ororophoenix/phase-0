@@ -4,27 +4,57 @@
 
 // Program Structure
 // Write your own variable and do something to it.
+
 var roller_coaster_review= "Drop Zone sucks"
-  console.log(roller_coaster)
+  console.log(roller_coaster_review)
 
-Write a short program that asks for a user to input their favorite food. After they hit return, have the program respond with "Hey! That's my favorite too!" (You will probably need to run this in the Chrome console (Links to an external site.) rather than node since node does not support prompt or alert). Paste your program into the eloquent.js file.
+var favoritefoods = prompt("What is your favorite food?");
+  if (favorite-foods == "pizza")
+    console.log("Hey! That's my favorite too!");
+  else
+    console.log("Wrong. Do better.");
 
-// Complete one of the exercises: Looping a Triangle, FizzBuzz, or Chess Board
+// Complete one of the exercises: FizzBuzz
+var number=0;
+while (number < 100){
+  number = number+1;
+if (number%3==0)
+  console.log("Fizz");
+else if (number%5==0)
+ console.log("Buzz");
+else console.log(number);
+}
 
+var number=0;
+while (number < 100){
+  number = number+1;
+if(number%5==0 && number%3==0)
+  console.log("FizzBuzz");
+else if (number%3==0)
+  console.log("Fizz");
+else if (number%5==0)
+ console.log("Buzz");
+else console.log(number);
+}
 
 
 // Functions
 
 // Complete the `minimum` exercise.
-
-
+function min(n1, n2) {
+if (n1 <n2)
+  console.log (n1);
+else console.log(n2);
+}
+console.log(min(5, 2))
 
 // Data Structures: Objects and Arrays
 
 // Create an object called "me" that stores your name, age, 3 favorite foods, and a quirk below.
  var me = {
     name: "Monique",
-    age: 24
-    favorite-foods: [pizza, tacos, burgers]
+    age: 24,
+    favoritefoods: ["pizza", "tacos", "burgers"],
     quirk: "I'm obsessed with my bucket list"
-  }
+  };
+console.log(me.favoritefoods[0])

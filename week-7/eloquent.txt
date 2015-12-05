@@ -38,7 +38,14 @@ What is a function declaration?
 
 Ch. 4: Data Structures: Objects and Arrays (Links to an external site.)
 What is the difference between using a dot and a bracket to look up a property? Ex. array.max vs array["max"]
-if you use a dot it will fetch whatever comes before the dot. whereas if you use brackets you will get the result of that property name.
-Create an object called me that stores your name, age, three favorite foods, and a quirk in your eloquent.js file.
-
+  if you use a dot it will fetch whatever comes before the dot. whereas if you use brackets you will get the result of that property name.
 What is a JavaScript object with a name and value property similar to in Ruby?
+  Arrays
+
+What are the biggest similarities and differences between JavaScript and Ruby?
+  A lot of the syntax is different. I think there are a lot of small details to remember in JavaScript.
+  There are similar theories behind some of he elements like objects and arrays. You write and access them differently but they are generally the same. I thin some of these similarites make it difficult because I have been writing ruby code for JavaScript.
+Was some of your Ruby knowledge solidified by learning another language? If so, which concepts?
+  Um I dont know if it was solidified so much as I recognized the differences in code immediately now.
+How do you feel about diving into JavaScript after reading these chapters?
+  I feel good but I know I want to put some time into going through the codecademy coursework.
