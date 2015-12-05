@@ -56,4 +56,10 @@ function Athlete(name, age, sport, quote){
 var michaelPhelps = new Athlete("Michael Phelps", 29, "swimming", "It's medicinal I swear!")
 console.log(michaelPhelps.constructor === Athlete)
 console.log(michaelPhelps.name + " " + michaelPhelps.sport + " " + michaelPhelps.quote)
-// Reflection
+/* Reflection
+What JavaScript knowledge did you solidify in this challenge?
+  The biggest help for me was realizing that JavaScript objects aresimilar to hashes and arrays but they absolutely are not the same lol. So I really did some digging to learn the differences.
+What are constructor functions?
+  Constructor functions is work that has to be done outside of the object so that it can be used in multiple scripts.
+How are constructors different from Ruby classes (in your research)?
+  they are similar except the constructor function does not hold everything in that function the way a class does.
