@@ -1,0 +1,44 @@
+Introduction (Links to an external site.)
+Did you learn anything new about JavaScript or programming in general?
+  I learned that other people also hated javascript as much as I did when they first started. I also learned that Javascript and Java have nothing to do with each other.
+Are there any concepts you feel uncomfortable with?
+  I am worried because the book states that Java is really lax when it comes to code and while I hated the errors in ruby at least it let me know that something was wrong.
+
+Ch. 1: Values, Types, and Operators (Links to an external site.)
+Identify two similarities and two differences between JavaScript and Ruby syntax with regard to numbers, arithmetic, strings, booleans, and various operators.
+  Two similarities is how numbers boolean operators and arithmetic works
+  Two differences is that Javascript did not differentiate between float and an integer and JavaScript will try to figure out a problem whereas ruby will return an error isyou try to add a string and a number.
+
+
+Ch. 2: Program Structure (Links to an external site.)
+What is an expression?
+  A fragment of code that produces an expression
+What is the purpose of semicolons in JavaScript? Are they always required?
+  A semicolon closes an expression. No
+What causes a variable to return undefined?
+  When you define a variable but fail to give it a value
+What does console.log do and when would you use it? What Ruby method(s) is this similar to?
+  it is an expression that retrieves the log property from the value held by the console variable. Puts.
+Describe while and for loops
+  a while loop executes a loop until the condition is no longer true
+  A for loop executes the loop the same way  while loop does but it written differently. A for loop needs 2 semicolons. The first part initializes the loop and the second part checks to see if the loop needs to keep going.
+What other similarities or differences between Ruby and JavaScript did you notice in this section?
+  Loops and variables are similar,
+  Console.log, the way that you create comments in the code and prompt are different in ruby
+
+
+Ch. 3: Functions (Links to an external site.) (Skip the sections on closure and recursion)
+What are the differences between local and global variables in JavaScript?
+  Local variables are defined within a function and only work in that function.  A global variable is defined outside the variable and can be used thoughout the program.
+When should you use functions?
+  Whenever you want to
+What is a function declaration?
+  It is a function that defines the variable
+
+
+Ch. 4: Data Structures: Objects and Arrays (Links to an external site.)
+What is the difference between using a dot and a bracket to look up a property? Ex. array.max vs array["max"]
+if you use a dot it will fetch whatever comes before the dot. whereas if you use brackets you will get the result of that property name.
+Create an object called me that stores your name, age, three favorite foods, and a quirk in your eloquent.js file.
+
+What is a JavaScript object with a name and value property similar to in Ruby?
