@@ -1,3 +1,22 @@
+/*
+REFLECTION
+When I ran our test 7 out of 9 of our tests passed.
+The two tests that did not pass were:
+  "median should return the median value of all elements in an array with an odd length."
+  "median should return the median value of all elements in an array with an even length."
+
+All of the following tests passed:
+  "sum should be a Function."
+  "sum should return the sum of all elements in an array with an odd length."
+  "sum should return the sum of all elements in an array with an even length."
+  "mean should be a Function."
+  "mean should return the average of all elements in an array with an odd length."
+  "mean should return the average of all elements in an array with an even length."
+  "median should be a Function."
+*/
+
+
+
 /*As a user I want to create a function the calculates sum, mean, and median and returns the correct value so that I dont have to create separate functions individually.
   I want the function to return an error message that explains the error when a incorrect test is inputted.
 
@@ -242,19 +261,4 @@ assert(
   "9. "
 )
 
-/*
-REFLECTION
-When I ran our test 7 out of 9 of our tests passed.
-The two tests that did not pass were:
-  "median should return the median value of all elements in an array with an odd length."
-  "median should return the median value of all elements in an array with an even length."
 
-All of the following tests passed:
-  "sum should be a Function."
-  "sum should return the sum of all elements in an array with an odd length."
-  "sum should return the sum of all elements in an array with an even length."
-  "mean should be a Function."
-  "mean should return the average of all elements in an array with an odd length."
-  "mean should return the average of all elements in an array with an even length."
-  "median should be a Function."
-*/
