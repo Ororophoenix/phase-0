@@ -22,7 +22,7 @@
 
 9.
 
-![clueless](../clueless.png)
+![clueless](../../clueless.png)
 
 Reflection
 What are databases for?
