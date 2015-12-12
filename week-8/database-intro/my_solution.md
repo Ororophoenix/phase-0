@@ -26,10 +26,10 @@
 
 Reflection
 What are databases for?
-  Databases are for storing large quantities of information that can be accessed easily and quickly
+  Databases are for storing large quantities of information that can be accessed easily and quickly.
 What is a one-to-many relationship?
   Its where something can be in one category but that category has multiple options.
 What is a primary key? What is a foreign key? How can you determine which is which?
-  A primary key is the word that esentially identifies each record in a database. A foreign key is the name of a field that is connected to aother table
+  A primary key is the word that esentially identifies each record in a database. A foreign key is the name of a field that is connected to aother table.
 How can you select information out of a SQL database? What are some general guidelines for that?
   you use select. It can be lowercase or uppercase but you have to select the column that you want and the table you want to select it from.
