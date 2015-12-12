@@ -22,6 +22,8 @@
 
 9.
 
+![clueless](../clueless.png)
+
 Reflection
 What are databases for?
   Databases are for storing large quantities of information that can be accessed easily and quickly
