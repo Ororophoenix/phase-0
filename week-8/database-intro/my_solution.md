@@ -4,8 +4,8 @@
 
 3.select state_name, population from states;
 
-4.select state_name from states
-   where region_id= 7;
+4.select state_name, population from states
+   order by population DESC;
 
 5.select state_name from states
   where region_id= 7;
@@ -20,9 +20,10 @@
 8.select state_name, region_id from states
    ...> order by region_id ASC;
 
-9.
+9.select region_name from regions
+   ...> where region_name like '%Central%';
 
-![clueless](../../clueless.png)
+![clueless](../imgs/clueless.png)
 
 Reflection
 What are databases for?

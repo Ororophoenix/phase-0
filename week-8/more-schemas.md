@@ -1,6 +1,6 @@
-![](.png)
-![](.png)
-![](.png)
+![onetoone](imgs/onetoone.png)
+![manytomany](imgs/manytomany.png)
+
 What is a one-to-one database?
   its when a field only has a single relationship with another field.
 When would you use a one-to-one database? (Think generally, not in terms of the example you created).
