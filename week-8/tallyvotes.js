@@ -81,24 +81,17 @@ var officers = {
 for (var key in votes) {
   if(votes.hasOwnProperty(key)) {
     var val = votes[key];
-    //console.log(val);
     for (var prop in val) {
       var valOfVal = val[prop];
-      // console.log(prop);
-     //  console.log(voteCount);;
-      // console.log(voteCount[prop]);
       if (voteCount[prop].hasOwnProperty(valOfVal)) {
-        //alert(count_key
         voteCount[prop][valOfVal] += 1;
       }
-      //console.log(voteCount[prop][valOfVal]);}
       else {
         voteCount[prop][valOfVal] = 1;
       }
-
-      }
     }
   }
+}
 
 for(var prop in officers){ //Going through the positions
   var officePosition = voteCount[prop];
